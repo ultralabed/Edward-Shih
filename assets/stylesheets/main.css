@@ -327,6 +327,7 @@ p a {
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
+  text-align: center;
   top: 20%;
   margin: auto;
 }
@@ -377,9 +378,47 @@ p a {
   Profile
   ========================================
 */
+#profile {
+  background-color: #ffffff;
+}
 
 .profile {
+  position: relative;
+  line-height: 30px;
+  text-align: justify;
+  margin: auto;
+  justify-content:center;
+  top: 20%;
+}
 
+.profile-head {
+  text-align: center;
+}
+
+.profile-head h1 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 66px;
+}
+.profile-head h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.profile h3,
+.profile-details-item h5,
+.profile-details-item p {
+  margin-bottom: 5px;
+}
+
+.profile-box {
+  padding: 20px 20px 20px 20px;
+}
+.profile-box-image {
+  border: 10px #f3efe0 solid;
+  border-radius: 50%;
+  width:100%;
+  height: auto;
 }
 
 /*
@@ -540,8 +579,30 @@ textarea {
   border-bottom: 2px;
   border-style: solid;
   width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .split-line-light {
   border-color: grey;
+}
+
+.flex {
+  display:inline-flex;
+  width: 100%;
+  vertical-align: top;
+}
+
+.flex-1-1 {
+  flex:1 1 100%;
+}
+
+.flex-1-3 {
+  flex:1 1 33%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .flex-1-3 {
+    flex:1 1 100%;
+  }
 }
