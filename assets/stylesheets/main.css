@@ -346,7 +346,7 @@ p a {
   height: 100vh;
   background: url('../home_bk.jpg') no-repeat center;
   background-size: cover;
-  opacity: 0.6;
+  opacity: 0.85;
 }
 .scroll-down {
   position: absolute;
@@ -455,6 +455,15 @@ p a {
   background-color: #ffffff;
 }
 
+.ability-head {
+  text-align: center;
+}
+
+.ability-head h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
 .ability-title {
   display: inline-block;
   width: 60%;
@@ -485,6 +494,38 @@ p a {
 .list-left:hover > .ability-score,
 .list-right:hover > .ability-score {
   font-size: 18px;
+}
+
+/*
+  ========================================
+  Project
+  ========================================
+*/
+
+#project {
+  background-color: #f3efe0;
+}
+
+.project-head {
+  text-align: center;
+}
+
+.project-head h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.project-box {
+  margin: 10px;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-image:hover {
+  background-color: #fff;
+  opacity: .6;
 }
 
 /*
