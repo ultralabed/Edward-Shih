@@ -21,7 +21,7 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: middle;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -541,6 +541,41 @@ p a {
   ========================================
 */
 
+.footer-bk {
+  width: 100%;
+  background-color: #434242;
+  height: 100vh;
+}
+
+.footer {
+  position: relative;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+  text-align: center;
+  top: 20%;
+  margin: auto;
+}
+
+.footer h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 66px;
+}
+
+.footer-link {
+  text-align: left;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/*
+  ========================================
+  Tools
+  ========================================
+*/
+
 .split-line {
   border-bottom: 2px;
   border-style: solid;
@@ -585,4 +620,19 @@ p a {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+}
+
+.icon {
+  display: inline-block;
+  background: url(../icons.png) no-repeat;
+  height: 32px;
+  width: 32px;
+}
+
+.icon-linkedin {
+  background-position: 0px -32px;
+}
+
+.icon-mail {
+  background-position: 0px -96px;
 }
