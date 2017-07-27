@@ -1,0 +1,27 @@
+{
+  "frontend":[
+    { "skill":"JavaScript", "stars": 5},
+    { "skill": "AngularJS", "stars": 5},
+    { "skill": "CSS", "stars": 4 },
+    { "skill": "ReactJS","stars": 3 },
+    { "skill": "jQuery", "stars": 3 }
+  ],
+  "backend":[
+    { "skill":"PHP", "stars": 5},
+    { "skill": "NodeJS", "stars": 4 },
+    { "skill": "MySQL", "stars": 3 },
+    { "skill": "Laravel", "stars": 3 }
+  ],
+  "others":[
+    { "skill": "Git", "stars": 5 },
+    { "skill": "Mocha", "stars": 4 },
+    { "skill": "Gulp", "stars": 4 },
+    { "skill": "Webpack", "stars": 4 },
+    { "skill": "Python", "stars": 3 }
+  ],
+  "languages":[
+    { "skill":"Chinese (Native Speaker)", "stars": 5},
+    { "skill":"English (Fluent)", "stars": 5 },
+    { "skill":"Japanese (Can survive!)", "stars": 2 }
+  ]
+}
