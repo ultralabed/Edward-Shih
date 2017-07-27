@@ -423,6 +423,30 @@ p a {
 
 /*
   ========================================
+  Experience
+  ========================================
+*/
+
+
+.experience-head {
+  text-align: center;
+}
+
+.experience h3,
+.experience h5,
+.experience p {
+  margin-bottom: 5px;
+}
+
+.experience-education,
+.experience-careers,
+.experience-education-head,
+.experience-careers-head {
+  margin-bottom: 20px;
+}
+
+/*
+  ========================================
   Speakers
   ========================================
 */
@@ -584,7 +608,7 @@ textarea {
 }
 
 .split-line-light {
-  border-color: grey;
+  border-color: #d9d7cb;
 }
 
 .flex {
@@ -599,6 +623,10 @@ textarea {
 
 .flex-1-3 {
   flex:1 1 33%;
+}
+
+.flex-2-3 {
+  flex:2 1 66%;
 }
 
 @media only screen and (max-device-width: 480px) {
