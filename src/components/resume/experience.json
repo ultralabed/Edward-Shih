@@ -1,0 +1,66 @@
+{
+  "educations": [
+    {
+      "school":"National Taipei University of Technology, Taiwan",
+      "duration": "Sep 2012 - June 2014",
+      "degree": "Master Electrical Engineering"
+    },
+    {
+      "school":"Czech Technical University, Czech",
+      "duration": "Sep 2013 - Feb 2014",
+      "degree": "Exchange student, Optical Fiber"
+    },
+    {
+      "school":"Osaka Institute of Technology, Japan",
+      "duration": "Jun 2013 - Aug 2013",
+      "degree": "Exchange student"
+    },
+    {
+      "school":"National Taipei University of Technology, Taiwan",
+      "duration": "Sep 2008 - June 2012",
+      "degree": "Bachelor Electrical Engineering"
+    }
+  ],
+  "careers": [
+    {
+      "company":"Cloudpe Corp., Taiwan",
+      "duration":"Sep 2014 - Present",
+      "role": "Full-stack engineer",
+      "jobDescription": [
+        "- Design and develop new projects.",
+        "- Research and introduce new technology to improve the performance of the current system.",
+        "- Lead and guide junior programmer."
+      ],
+      "achievements": [
+        "- Solved Red 5 streaming server's disability in streaming multiple mp4 files and reduced server loading.",
+        "- Increased Red5 video streaming server's performance about 20%.",
+        "- Introduced Gulp and Webpack automation tools to speed up web development.",
+        "- Provided WebRTC, SIP, and instant chat room features.",
+        "- Provided new Lecture video streaming server with HLS features to support cross-platform video browsing.",
+        "- Provided multiple video streamings in iOS App using Air Native Extension (ANE).",
+        "- Use React Native to build Lecture One Button Studio App.",
+        "- Refactored part of VOD platform code base."
+      ]
+    },
+    {
+      "company":"Front End Developer Consultant",
+      "duration":"Apr 2016 - Jul 2016",
+      "role": "Front End Developer Consultant",
+      "jobDescription": [
+        "- Provide consulting to start up for following skills Angular 2, Angular 1.x, Sass, Javascript, PHP."
+      ],
+      "achievements": []
+    },
+    {
+      "company":"Cloudpe Corp., Taiwan",
+      "duration":"Mar 2012 - July 2014",
+      "role": "Assistant Software Engineer",
+      "jobDescription": [
+        "- Video conferencing system development.",
+        "- Assist E-Learning platform development.",
+        "- Mobile Applications development based on Flash."
+      ],
+      "achievements": ["- Implemented the following features: courses and batches management, student attendance control, timetable, multiple dashboards, user management, school/event calendar, and email integration."]
+    }
+  ]
+}
