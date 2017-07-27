@@ -447,150 +447,44 @@ p a {
 
 /*
   ========================================
-  Speakers
+  Abilities
   ========================================
 */
 
-.speaker {
-  margin-bottom: 44px;
-}
-.speaker-info {
-  border: 1px solid #dfe2e5;
-  border-radius: 5px;
-  margin-top: 88px;
-  padding-bottom: 22px;
-  text-align: center;
-}
-.speaker-info img {
-  border-radius: 50%;
-  height: 130px;
-  margin: -66px 0 22px 0;
-  vertical-align: top;
+#ability {
+  background-color: #ffffff;
 }
 
-/*
-  ========================================
-  Schedule
-  ========================================
-*/
-
-table {
-  margin-bottom: 44px;
-  width: 100%;
-}
-table:last-child {
-  margin-bottom: 0;
-}
-th,
-td {
-  padding-bottom: 22px;
-  vertical-align: top;
-}
-th {
-  padding-right: 45px;
-  text-align: right;
-  width: 20%;
-}
-td {
-  width: 40%;
-}
-thead {
-  line-height: 44px;
-}
-thead th {
-  color: #648880;
-  font-size: 24px;
-}
-tbody th {
-  color: #a9b2b9;
-  font-size: 14px;
-  font-weight: 400;
-  padding-top: 22px;
-  text-transform: uppercase;
-}
-tbody td {
-  border-top: 1px solid #dfe2e5;
-  padding-top: 21px;
-}
-tbody td:first-of-type {
-  padding-right: 15px;
-}
-tbody td:last-of-type {
-  padding-left: 15px;
-}
-tbody td:only-of-type {
-  padding-left: 0;
-  padding-right: 0;
-}
-table a {
-  color: #888;
-}
-table h4 {
-  margin-bottom: 0;
-}
-.schedule-offset {
-  color: #a9b2b9;
+.ability-title {
+  display: inline-block;
+  width: 60%;
 }
 
-/*
-  ========================================
-  Venue
-  ========================================
-*/
-
-.venue-theatre {
-  margin-bottom: 66px;
-}
-.venue-hotel {
-  margin-bottom: 22px;
-}
-.venue-map {
-  height: 264px;
+.ability-score {
+  float: right;
+  font-size: 16px;
+  transition: font-size .5s;
 }
 
-/*
-  ========================================
-  Register
-  ========================================
-*/
+.ability-score .filled {
+  color: #22A39F;
+}
 
-.why-attend {
-  list-style: square;
-  margin: 0 0 22px 30px;
+.list-left {
+  margin-right: 20px;
 }
-form {
-  margin-bottom: 22px;
+.list-right {
+  margin-left: 20px;
 }
-input,
-select,
-textarea {
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+.list-left:hover,
+.list-right:hover {
+  background-color: #eee;
 }
-.register-group label {
-  color: #648880;
-  cursor: pointer;
-  font-weight: 400;
-}
-.register-group input,
-.register-group select,
-.register-group textarea {
-  border: 1px solid #c6c9cc;
-  border-radius: 5px;
-  color: #888;
-  display: block;
-  margin: 5px 0 27px 0;
-  padding: 5px 8px;
-}
-.register-group input,
-.register-group textarea {
-  width: 100%;
-}
-.register-group select {
-  height: 34px;
-  width: 60px;
-}
-.register-group textarea {
-  height: 78px;
+
+.list-left:hover > .ability-score,
+.list-right:hover > .ability-score {
+  font-size: 18px;
 }
 
 /*
@@ -629,8 +523,18 @@ textarea {
   flex:2 1 66%;
 }
 
+.flex-1-2 {
+  flex:1 1 49%;
+}
+
 @media only screen and (max-device-width: 480px) {
   .flex-1-3 {
     flex:1 1 100%;
   }
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
