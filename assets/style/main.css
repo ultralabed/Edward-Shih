@@ -331,23 +331,27 @@ p a {
   top: 20%;
   margin: auto;
 }
+
 .home h1 {
   color: black;
   font-size: 60px;
   font-weight: 800;
   line-height: 66px;
 }
+
 .home h2 {
   color: black;
   font-weight: 700;
   font-size: 36px;
 }
+
 .home-bk {
   height: 100vh;
   background: url('../home_bk.jpg') no-repeat center;
   background-size: cover;
   opacity: 0.85;
 }
+
 .scroll-down {
   position: absolute;
   width: 110px;
@@ -359,7 +363,9 @@ p a {
   font-size: 40px;
   line-height: 80px;
   text-align: center;
+  cursor: pointer;
 }
+
 .scroll-down span {
   animation-name:up_and_down;
   animation-duration:1.2s;
@@ -367,6 +373,7 @@ p a {
   animation-play-state:active;
   animation-iteration-count:infinite;
 }
+
 @-webkit-keyframes up_and_down {
     0%   {top: 5px;}
     50%  {top: 10px;}
