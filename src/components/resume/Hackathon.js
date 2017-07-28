@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
-import data from './project.json';
+import data from './hackathon.json';
 
-class Project extends Component {
+class Hackathon extends Component {
   constructor(props) {
     super(props)
     this.state = data;
   }
 
-  renderProjectView(projects) {
-    let list = projects.map((project) => {
+  renderHackathonView(hackathons) {
+    let list = hackathons.map((hackathon) => {
       return (
         <div className="col-1-2 project-content-box">
           <figure className="effect">
-      			<img src={project.image} alt={project.description} className="project-image"/>
+      			<img src={hackathon.image} alt={hackathon.description} className="project-image"/>
       			<figcaption className="project-detail">
-      				<h3>{project.title}</h3>
-      				<p>{project.description}</p>
-      				<p><strong>Tags:</strong> <br></br>{project.tags}</p>
-      				<a href={project.link} target="_blank">View more</a>
+      				<h3>{hackathon.title}</h3>
+      				<p>{hackathon.description}</p>
+      				<p><strong>Tags:</strong> <br></br>{hackathon.tags}</p>
+      				<a href={hackathon.link} target="_blank">View more</a>
       				<span className="icon">
       					<span className="glyphicon glyphicon-new-window"></span>
       				</span>
@@ -31,14 +31,14 @@ class Project extends Component {
 
   render() {
     return (
-      <section id="project">
+      <section id="hackathon">
         <div className="container project">
           <div className="project-head">
-            <h2>Projects</h2>
+            <h2>Hackathons</h2>
             <div className="split-line split-line-light flex-1-1"></div>
           </div>
           <div className="project-content">
-            {this.renderProjectView(this.state.projects)}
+            {this.renderHackathonView(this.state.hackathons)}
           </div>
         </div>
       </section>
@@ -46,4 +46,4 @@ class Project extends Component {
   }
 }
 
-export default Project;
+export default Hackathon;

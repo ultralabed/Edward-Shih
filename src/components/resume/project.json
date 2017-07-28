@@ -1,14 +1,18 @@
 { "projects":
   [
-    { "title":"Kidguard",
+    {
+      "title":"Kidguard",
       "image":"./images/kg.jpg",
       "description":"KidGuard provides information & tools for parents to keep their kids safe online.",
-      "tags":"AngularJS, NodeJS"
+      "tags":"AngularJS, NodeJS",
+      "link":"https://www.kidguard.com/"
     },
-    { "title":"Orderspoon",
+    {
+      "title":"Orderspoon",
       "image":"./images/orderspoon.jpg",
-      "description": "Ordered Spoon is an online restaurant ordering system that provides eaters to find and order their favorite food online for dining in or take outs.",
-      "tags":"AngularJS, Codignitor, "
+      "description": "Ordered Spoon provides eaters to find and order their favorite food online for dining in or take outs.",
+      "tags":"AngularJS, Codignitor, Google Map API",
+      "link":"https://www.orderspoon.com/"
     }
   ]
 }
