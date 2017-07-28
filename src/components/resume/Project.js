@@ -25,7 +25,6 @@ class Project extends Component {
         <div className="container project">
           <div className="project-head">
             <h2>Projects</h2>
-            <p>Making a better world</p>
             <div className="split-line split-line-light flex-1-1"></div>
           </div>
           <div className="flex">

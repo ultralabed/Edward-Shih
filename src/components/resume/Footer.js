@@ -37,6 +37,7 @@ class Footer extends Component {
             		</ul>
             	</div>
             </div>
+            <div className="split-line split-line-light"></div>
           </div>
         </div>
       </section>
