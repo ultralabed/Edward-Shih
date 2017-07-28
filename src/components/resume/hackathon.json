@@ -1,0 +1,32 @@
+{ "hackathons":
+  [
+    {
+      "title":"Booking.com 2017",
+      "image":"./images/booking_com.jpg",
+      "description": "Provided a new way for business enterprises to book hotels for their companies.",
+      "tags":"AngularJS",
+      "link":"https://github.com/ultralabed/Hackathon-Booking.com-Bidding-System-Taipei"
+    },
+    {
+      "title":"Fishackathon 2016",
+      "image":"./images/mda.jpg",
+      "description": "Provided Animal Protection Association to check whether the ship has illegal fishing records.",
+      "tags":"AngularJS, Laravel, MySQL",
+      "link":"http://coomysky.github.io/fishackathon2016-client/#!/main/near"
+    },
+    {
+      "title":"Smart-city 2016",
+      "image":"./images/smart_city.jpg",
+      "description": "Created instant report app for citizens to upload videos, photos, and geolocations to the government.",
+      "tags":"Monaca, AngularJS, NodeJS",
+      "link":"https://github.com/ultralabed/Hackathon-Smart-City-Taipei-Open-City-APP"
+    },
+    {
+      "title":"Hackathon Taiwan 2015",
+      "image":"./images/sous_vide_machine.jpg",
+      "description": "Provided kitchen novice to make sous vide steak just like the 5-star chef. ",
+      "tags":"Ionic, AngularJS, Laravel, Arduino",
+      "link":"https://github.com/ultralabed/Hackathon-Taipei-Sous-Vide-Machine"
+    }
+  ]
+}
