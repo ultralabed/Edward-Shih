@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import data from './profile.json';
-
 class Profile extends Component {
   constructor(props) {
     super(props)
@@ -21,7 +20,7 @@ class Profile extends Component {
             </article>
             <div className="profile-box flex-1-3">
               <div>
-                <img className="profile-box-image" src="../../assets/me.jpg"></img>
+                <img className="profile-box-image" src='./images/me.jpg'></img>
               </div>
             </div>
             <article className="profile-details flex-1-3">

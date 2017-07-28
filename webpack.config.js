@@ -1,11 +1,13 @@
-var webpack = require('webpack');
-var path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 // All the vendor libs that only need to be update once
 const VENDOR_LIBS = [
-  'react', 'lodash', 'redux', 'react-redux', 'react-dom',
-  'faker', 'react-input-range', 'redux-form', 'redux-thunk'
+  'react', 'redux', 'react-redux', 'react-dom',
+  'react-input-range', 'redux-form', 'redux-thunk'
 ];
 
 module.exports = {
@@ -16,6 +18,8 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].[chunkhash].js',
+    // add public path for url loader to find new path of build images
+    // it will prepend build/{hashedimaged}.jpg to import big from 'assets/big.jpg'
   },
   module: {
     rules: [
@@ -26,7 +30,13 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        use: ['style-loader', 'css-loader'],
+        // order is important, read from right to left
+        // use: ['style-loader','css-loader'],
+        // nasty way to use ExtractTextPlugin with webpack 1.0
+        loader: ExtractTextPlugin.extract({
+          loader: 'css-loader'
+        }),
+        // process only .css files
         test: /\.css$/,
       },
       {
@@ -58,5 +68,10 @@ module.exports = {
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
     }),
+    // Combine all css file to this style.css
+    new ExtractTextPlugin('style.css'),
+    new CopyWebpackPlugin([{
+        from: path.join(__dirname, './src/assets'),
+    }]),
   ],
 };
