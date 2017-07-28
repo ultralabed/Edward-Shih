@@ -1,0 +1,523 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: middle;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  background: #f3efe0;
+  color: #434242;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+}
+.container {
+  padding: 40px 100px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h2, h3 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+h3 {
+  margin-bottom: 30px;
+}
+h4, h5, h6, strong, b {
+  margin-bottom: 20px;
+}
+h1, h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+h2,h3 {
+  font-weight: 300;
+  color: #22A39F;
+}
+h2 {
+  font-size: 54px;
+  text-align: center;
+}
+h3 {
+  font-size: 28px;
+}
+strong {
+  font-weight: 700;
+}
+cite,
+em {
+  font-style: italic;
+}
+p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+/*
+  ========================================
+  Leads
+  ========================================
+*/
+
+/*.lead {
+  text-align: center;
+}
+.lead p {
+  font-size: 21px;
+  line-height: 33px;
+}*/
+
+/*
+  ========================================
+  Links
+  ========================================
+*/
+
+a {
+  color: #648880;
+  text-decoration: none;
+}
+a:hover {
+  color: #a9b2b9;
+}
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+.primary-header a,
+.primary-footer a {
+  color: #fff;
+}
+.primary-header a:hover,
+.primary-footer a:hover {
+  color: #648880;
+}
+
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+
+.nav {
+  text-align: right;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+.nav li:last-child {
+  margin-right: 0;
+}
+
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.home {
+  position: relative;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+  text-align: center;
+  top: 35%;
+  margin: auto;
+}
+
+.home h1 {
+  color: #eee;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 66px;
+}
+
+.home h2 {
+  color: #eee;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.home-bk {
+  height: 100vh;
+  background: url('../images/home_bk.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.scroll-down {
+  display: none;
+  position: absolute;
+  width: 110px;
+  height: 80px;
+  right: 5%;
+  bottom: 0px;
+  color: #FFF;
+  background-color: black;
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.scroll-down span {
+  animation-name:up_and_down;
+  animation-duration:1.2s;
+  animation-timing-function:linear;
+  animation-play-state:active;
+  animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes up_and_down {
+    0%   {top: 5px;}
+    50%  {top: 10px;}
+    100% {top: 5px;}
+}
+
+/*
+  ========================================
+  Profile
+  ========================================
+*/
+#profile {
+  background-color: #ffffff;
+}
+
+.profile {
+  position: relative;
+  line-height: 30px;
+  text-align: left;
+  margin: auto;
+  justify-content:center;
+  top: 20%;
+}
+
+.profile-box {
+  padding: 20px 20px 20px 20px;
+}
+.profile-box-image {
+  border: 10px #f3efe0 solid;
+  border-radius: 50%;
+  width:100%;
+  height: auto;
+}
+
+/*
+  ========================================
+  Experience
+  ========================================
+*/
+
+
+.experience-head {
+  text-align: center;
+}
+
+.experience h5,
+.experience p {
+  margin-bottom: 5px;
+}
+
+.experience ul li {
+  list-style: circle;
+  margin-left: 20px;
+}
+
+.experience-education,
+.experience-careers,
+.experience-education-head,
+.experience-careers-head {
+  margin-bottom: 20px;
+}
+
+.experience-strong-light {
+  font-weight: 400;
+}
+
+/*
+  ========================================
+  Abilities
+  ========================================
+*/
+
+#ability {
+  background-color: #ffffff;
+}
+
+.ability-title {
+  display: inline-block;
+  width: 60%;
+}
+
+.ability-score {
+  float: right;
+  font-size: 16px;
+  color: #dfe0e0;
+  /*transition: font-size .5s;*/
+}
+
+.ability-score .filled {
+  color: #22A39F;
+}
+
+.list-left {
+  margin-right: 20px;
+}
+.list-right {
+  margin-left: 20px;
+}
+
+/*.list-left:hover,
+.list-right:hover {
+  background-color: #eee;
+}*/
+
+/*.list-left:hover > .ability-score,
+.list-right:hover > .ability-score {
+  font-size: 18px;
+}*/
+
+/*
+  ========================================
+  Project
+  ========================================
+*/
+
+#project {
+  background-color: #f3efe0;
+}
+
+.project-box {
+  position:relative;
+  margin: 10px;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-image:hover {
+  background-color: #fff;
+  opacity: .6;
+}
+
+.project-box:hover .project-box-content{
+  display: block;
+}
+
+.project-box-content {
+  /*display: none;*/
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+
+.project-box-content h4 {
+  text-align: center;
+}
+
+/*
+  ========================================
+  Tools
+  ========================================
+*/
+
+.footer-bk {
+  width: 100%;
+  background-color: #434242;
+  height: 100vh;
+}
+
+.footer {
+  position: relative;
+  line-height: 44px;
+  padding: 22px 80px 66px 80px;
+  text-align: center;
+  text-align: center;
+  top: 20%;
+  margin: auto;
+}
+
+.footer h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 66px;
+}
+
+.footer-link {
+  text-align: left;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/*
+  ========================================
+  Tools
+  ========================================
+*/
+
+.split-line {
+  border-bottom: 1px;
+  border-style: solid;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.split-line-light {
+  border-color: #727878;
+  opacity: 0.2;
+}
+
+.split-line-short {
+  border-color: #eee;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  width: 400px;
+}
+
+.flex {
+  display:inline-flex;
+  width: 100%;
+  vertical-align: top;
+}
+
+.flex-1-1 {
+  flex:1 1 100%;
+}
+
+.flex-1-3 {
+  flex:1 1 33%;
+}
+
+.flex-2-3 {
+  flex:2 1 66%;
+}
+
+.flex-1-2 {
+  flex:1 1 49%;
+}
+
+.flex-1-4 {
+  flex:1 1 25%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .flex-1-3 {
+    flex:1 1 100%;
+  }
+}
+
+.no-bullets {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.icon {
+  display: inline-block;
+  background: url(../images/icons.png) no-repeat;
+  height: 32px;
+  width: 32px;
+}
+
+.icon-linkedin {
+  background-position: 0px -32px;
+}
+
+.icon-mail {
+  background-position: 0px -96px;
+}
