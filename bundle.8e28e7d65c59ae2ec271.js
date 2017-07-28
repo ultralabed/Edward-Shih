@@ -3603,7 +3603,7 @@ var Profile = function (_Component) {
               _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement('img', { className: 'profile-box-image', src: './me.jpg' })
+                _react2.default.createElement('img', { className: 'profile-box-image', src: './images/me.jpg' })
               )
             ),
             _react2.default.createElement(
@@ -6974,7 +6974,7 @@ module.exports = {"educations":[{"school":"National Taipei University of Technol
 /* 292 */
 /***/ function(module, exports) {
 
-module.exports = {"hackathons":[{"title":"Booking.com 2017","image":"./booking_com.jpg","description":"Provided a new way for business enterprises to book hotels for their companies.","tags":"AngularJS","link":"https://github.com/ultralabed/Hackathon-Booking.com-Bidding-System-Taipei"},{"title":"Fishackathon 2016","image":"./mda.jpg","description":"Provided Animal Protection Association to check whether the ship has illegal fishing records.","tags":"AngularJS, Laravel, MySQL","link":"http://coomysky.github.io/fishackathon2016-client/#!/main/near"},{"title":"Smart-city 2016","image":"./smart_city.jpg","description":"Created instant report app for citizens to upload videos, photos, and geolocations to the government.","tags":"Monaca, AngularJS, NodeJS","link":"https://github.com/ultralabed/Hackathon-Smart-City-Taipei-Open-City-APP"},{"title":"Hackathon Taiwan 2015","image":"./sous_vide_machine.jpg","description":"Provided kitchen novice to make sous vide steak just like the 5-star chef. ","tags":"Ionic, AngularJS, Laravel, Arduino","link":"https://github.com/ultralabed/Hackathon-Taipei-Sous-Vide-Machine"}]}
+module.exports = {"hackathons":[{"title":"Booking.com 2017","image":"./images/booking_com.jpg","description":"Provided a new way for business enterprises to book hotels for their companies.","tags":"AngularJS","link":"https://github.com/ultralabed/Hackathon-Booking.com-Bidding-System-Taipei"},{"title":"Fishackathon 2016","image":"./images/mda.jpg","description":"Provided Animal Protection Association to check whether the ship has illegal fishing records.","tags":"AngularJS, Laravel, MySQL","link":"http://coomysky.github.io/fishackathon2016-client/#!/main/near"},{"title":"Smart-city 2016","image":"./images/smart_city.jpg","description":"Created instant report app for citizens to upload videos, photos, and geolocations to the government.","tags":"Monaca, AngularJS, NodeJS","link":"https://github.com/ultralabed/Hackathon-Smart-City-Taipei-Open-City-APP"},{"title":"Hackathon Taiwan 2015","image":"./images/sous_vide_machine.jpg","description":"Provided kitchen novice to make sous vide steak just like the 5-star chef. ","tags":"Ionic, AngularJS, Laravel, Arduino","link":"https://github.com/ultralabed/Hackathon-Taipei-Sous-Vide-Machine"}]}
 
 /***/ },
 /* 293 */
@@ -6986,7 +6986,7 @@ module.exports = {"aboutMeContent":"I am a front-end engineer with 3 years of ex
 /* 294 */
 /***/ function(module, exports) {
 
-module.exports = {"projects":[{"title":"Kidguard","image":"./kg.jpg","description":"KidGuard provides information & tools for parents to keep their kids safe online.","tags":"AngularJS, NodeJS","link":"https://www.kidguard.com/"},{"title":"Orderspoon","image":"./orderspoon.jpg","description":"Ordered Spoon provides eaters to find and order their favorite food online for dining in or take outs.","tags":"AngularJS, Codignitor, Google Map API","link":"https://www.orderspoon.com/"}]}
+module.exports = {"projects":[{"title":"Kidguard","image":"./images/kg.jpg","description":"KidGuard provides information & tools for parents to keep their kids safe online.","tags":"AngularJS, NodeJS","link":"https://www.kidguard.com/"},{"title":"Orderspoon","image":"./images/orderspoon.jpg","description":"Ordered Spoon provides eaters to find and order their favorite food online for dining in or take outs.","tags":"AngularJS, Codignitor, Google Map API","link":"https://www.orderspoon.com/"}]}
 
 /***/ },
 /* 295 */
