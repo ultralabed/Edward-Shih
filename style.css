@@ -78,7 +78,7 @@ body {
   max-width: 960px;
 }
 .container {
-  padding: 40px 100px;
+  padding: 50px 100px;
 }
 
 /*
@@ -270,7 +270,7 @@ p a {
   ========================================
 */
 #profile {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .profile {
@@ -331,7 +331,7 @@ p a {
 */
 
 #ability {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .ability-title {
@@ -369,17 +369,36 @@ p a {
 
 /*
   ========================================
+  Hackathon
+  ========================================
+*/
+
+#hackathon {
+  background-color: #f3efe0;
+}
+
+/*
+  ========================================
   Project
   ========================================
 */
 
 #project {
-  background-color: #f3efe0;
+  background-color: #fff;
 }
 
-.project-box {
+.project-content {
+  font-size: 0px;
+}
+
+.project-content-box {
   position:relative;
-  margin: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.project-content-box:nth-child(2n) {
+  margin-left: 6%;
 }
 
 .project-image {
@@ -391,19 +410,24 @@ p a {
   opacity: .6;
 }
 
-.project-box:hover .project-box-content{
-  display: block;
+figure {
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
 }
-
-.project-box-content {
-  /*display: none;*/
+figure .effect {
+  background: #22A39F;
+  color: #FFF;
+}
+figure figcaption {
+  padding: 20px 30px;
   position: absolute;
-  top: 100%;
-  left: 50%;
-}
-
-.project-box-content h4 {
-  text-align: center;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 /*
@@ -428,18 +452,27 @@ p a {
   margin: auto;
 }
 
-.footer h1 {
-  color: #ffffff;
-  font-size: 60px;
-  font-weight: 800;
-  line-height: 66px;
+.footer h2 {
+  color: #b4b3b3;
 }
 
 .footer-link {
   text-align: left;
-  font-size: 20px;
-  line-height: 32px;
 }
+
+.footer-link a .icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.footer-link a {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: #b4b3b3;
+}
+
+
 
 /*
   ========================================
@@ -488,7 +521,7 @@ p a {
 }
 
 .flex-1-2 {
-  flex:1 1 49%;
+  flex:1 1 50%;
 }
 
 .flex-1-4 {
@@ -501,6 +534,15 @@ p a {
   }
 }
 
+.col-1-2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-2 {
+  width: 47%;
+}
+
 .no-bullets {
   list-style-type: none;
   margin: 0px;
@@ -509,7 +551,7 @@ p a {
 
 .icon {
   display: inline-block;
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAACACAMAAABduJsoAAABSlBMVEVHcEz///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8dFFKSAAAAbXRSTlMAqoi7RFXd7swRMyJ3ZpkQD/EEYwcY/NYx8qnSrvMSATT+3NvhYsECQt9cNWdf3jKe6K2b9iidDVnQ9Rb7XpcU0aQe7GX3j9p++gOrxAwf4rdzOT6wFeN0aOsZPIoIP8J4RmTqybkhdcNgejhvgB8dnQAAA/FJREFUWMPlllV33EgQRr8WNEgj2Y4pMcRhZmZmzjIz797//7oPkmYkzXicPUnO2T1bL4K63epClfTmcnP+9uo6rK/enr85Qb195RpDubayvaeePbubjuw+O9tZfoIxOdHa5NAcE2TuUKPPJuphLqv04TCwfKZDzZ1ZBg4HSdIpgCNamD/N+uqBA6vrnJ5f0BGAU5K0C4CTkmbPH5Skg+dnJZ0EYJekNQCO9v1yFIA1aXEJgON94DgAS4s6BsAnO/vAzpcAHNMKAPvHfb8fgBUtAyzNjgOzSwDLOgewb1J09wGcEwB7JwF7AKiAHZOAHRVQXa6O66/WSy8DcH0cuA7AZV0A4Na2vn7bLQAu6FIVvgd94EH1/pIuXqnuni621V88rd5euSjdgK+++RYem3u7nkjStg8+W3tc58UNSXfus/v1wk8AaxuStPHRMG/u35GkR8Cfv7wEvqz2/3AIPKrO+wx+1sz8H98/qYCPG/2z2rbFPfBX64QztX7P8Nwv9sJvv/7+3dcdYO+LVna8AmCmDbzq5NDGDz92gc/vbfQ89/z1w7sL1e3C3YefPn/zrpA6pohLNVUPTmwhbwzYyEwFfJCKacBAUrBTgEhS7qYALlEw062w7u3M9CGEFKIQQuyLPITEd4FYUlIZU1StLXPdHSogakXRbgpEJmt5ZRwYgMsl+c2AGEjq60TA1ID/7wGxpKxytQGyMTOd996D9d47wNfXf5LVbwFsWXpbFu9UwqXaGniH/cHFfpof4iQo5AM78vF48TaSp/EYYHqdLfFdwIV+7wtxByib14WxzkeZRulQAWk9qtiW/zqVlVRADHGRmrqy0hYwqDaoMk9xvcKPgLgBfJCUW5urKtKhFZnqr9ooCQrtDtEC6q+6uD5SdUwB2ND1Txw2AaS8KG3j+RZQn8FEkpSX4DT0VRWLVJIKKCQpOMhV1WIDlPWzyyvQqiFrwOWSggdbFOXQ98GO8qGUpLw2whXq79CsGRjvTZQ3c2Y75VzShHyUFKZTmy7tJ03SL16Td/VuvLrjQZplaZFJyqJNyt85cN7b/29/eH+NtP3gozRJkoFxkwGTDJM/mgQMpJBGcWyipG38ECikQRNDnzXFPwIiqQQbFQPrYm+DTBewQVFdk3mi4Mo64VpDTgY2KEQmSCm+/3PPFEEiRVBIJTZ0xwMX5PFSDqQKDt+bH2yQo2xGgwRMbwKxQZZIisBIJSR1hxqeIcgQSwkulwyD0VimpjQLXC5luYJCrqEbWr9mT5xLwfggZX4sFqkyizPGgjWeccDlyktGsYjHguVzKYtMHJtB1v5G6581GDXDcnJGubJIkiQdxO8xaf+t88PffvwjJbb2NL4AAAAASUVORK5CYII=) no-repeat;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAACACAMAAABduJsoAAAB71BMVEVHcEz///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8sKzIGAAAApHRSTlMAVd0iRIiqzO4RM7t3D/MSGAJmBBCZ8fyp1sQBYwf7Z0L5BjHy0q4WdDQD99zb0DXf3uPn9eFc7NoU/qAerMIMYOViwZut6J72Ml8oFVmdDaaCcpdeGdGkJGUJyo8sumg28H6r+h/g4rdGimQhCJI413N6sDnrPiORlC61V1rTHC8gfXZOUYuOqBp775CA7UwwfLLGPG7IcBMqz2w/eOrDb3W5ySuaH2UAAAQkSURBVFjD1ZZVd9xIEIWvsLslDdpj5sTMzBRmZsYNJ5ssMzMz8/2h+6DxeEbSyN7NnpxsvbSO7iepu+p2q4D1x3TD8fYkmWw/3jAdIW+oaWIhmmo2BOTElhmWxMyWRMnjwwzFcNFLWqoYEVUtK7oTqZNVjq+rIZK1W0uoqq21JIcUAGA7SU6gsWEbk+2bN7cnua2hERMkuR0AukmSOwEkdmcAILM7AWAnSbIbQAdJcjCYl0GSZAeQriZJ7goCu0iS1Wk0kyRHUkEgdY0k2YwakuSmcO43kSRrUEuS1YkwkKgmyVrsIMnxqOqOk+QOkCT7o4A+kqQPbIwCNvqAP3SG9c78owMkySNh4AhJcgD7SJLHKoJ6xTGS5D7s9ct3Jgic8e/vxf4x/+pyulg+etm/O7YfOEze/HmBvGKf7O4BgIqnz3dcyfviMIC5Xs7cb/yLJDvqAaD+qYJveucA4BLJe7evkfzaf/+zBeCSP9868k9UNjy40eMDe1b0uvza0n3k70UzrMzrfYV5X+0nf/tj6Zc7JUD/1SJ3XCdJVhYD10s8VH/r11LgmZP1gcwt3p+abPQvGyenuhbXfypokjEhNcTqpATXiHUDumXHAkIB2TjAA6D0GMACYMgYQJpQdvwqdPlwyxRKKY20lFKuyBpKmaIUcAGY/mKy/tHmyNI3+IBVVEW9LGDZTlFWwoBHSgOAKAe4JM38GAnYeUD8/wAXgOOn2ibphJYphRCC1IUQkqTIj//E1Q8BrLn11ty8sYTUgNn4TyytNcmLjyIP+fHV2YPDcUCf9kbnm6PlAdmcAG4vtJYF6l6vB3puLZQFXngNAFJdo+WAt1IAcOrQZDng3aMATn0omsoB8yeAtgmRLDuH8ZYKpM41xeThi2ksziZjgNPdGbQMNJUHWrtSaHswEFOLH1vaMPfTkzHVnP8hg/R3PjE2NRoGWu8aGaTPf9tLjsy/cuhcMuSH5ebvM0h/89WnH73/DhIvvzRSHTTMcrORQduFmx9fAIA9XUMhRy3fPXtn9Zw0DoQt1/rlZ52ZvN4zWBflyf5P7n3QBgAVJw7KSNO21r739ovPGWdvPN9b1tXJ0zUH6uR/vy/+NfAEli7G6p+vfYA8Rv3D+gBhaaZperaMBmyz4BUrCvAApVmua1tm8eILQBbwVloQ4UALAhaQI3Ur6+nSFbqCXQroChbpKgCGCSVzMINNjkPqCsqyFaBRBH/uDizSBCwyC+Soq9L2QCoICsAgqUFJikD/oCtI5lZaA5O0Ax2IrqDTAizSBnKkCa90kgo2XcCkNACb3mpblgc0ZCkNwDGgoAwU0lD0axZ0DUDZQgGOCNVCg6NT2rZO6rZgGJAGjBxXa+GGiiUMwLFs17U9p/gbq+WWnir4IRftKJnLmqapee6j3byPRf/wNz+45Wl4ZU50AAAAAElFTkSuQmCC) no-repeat;
   height: 32px;
   width: 32px;
 }
@@ -520,4 +562,103 @@ p a {
 
 .icon-mail {
   background-position: 0px -96px;
+}
+
+.icon-phone {
+  background-position: 0px -64px;
+}
+
+/*---------------*/
+/***** EFFECT *****/
+/*---------------*/
+
+figure.effect {
+  background: #ddd;
+	color: #333;
+}
+
+figure.effect img {
+	width: calc(100% + 20px);
+	transition: opacity 0.35s, transform 0.35s;
+	transform: translate3d(-10px,0,0);
+	backface-visibility: hidden;
+}
+
+figure.effect:hover img {
+	opacity: 0.2;
+	transform: translate3d(0,0,0);
+}
+
+figure.effect figcaption {
+	text-align: left;
+}
+
+figure.effect h3 {
+  margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 20px;
+	opacity: 0;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect:hover h3 {
+	opacity: 1;
+}
+
+figure.effect h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	transition: transform 0.35s;
+	transform: translate3d(-100%,0,0);
+}
+
+figure.effect:hover h3::after {
+	transform: translate3d(0,0,0);
+}
+
+figure.effect p {
+	/*padding-top: 10px;*/
+	opacity: 0;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: translate3d(100%,0,0);
+}
+
+figure.effect:hover p {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+figure .icon {
+  background: #888;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 48px;
+  height: 48px;
+}
+
+figure .icon span {
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px;
+}
+
+figure a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
 }

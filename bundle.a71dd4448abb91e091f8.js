@@ -260,7 +260,7 @@ var locationShape = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_prop_types
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_create_react_class___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_create_react_class__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_prop_types__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getRouteParams__ = __webpack_require__(431);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getRouteParams__ = __webpack_require__(432);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ContextUtils__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__RouteUtils__ = __webpack_require__(23);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -596,7 +596,7 @@ exports.__esModule = true;
 
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-var _queryString = __webpack_require__(339);
+var _queryString = __webpack_require__(340);
 
 var _runTransitionHook = __webpack_require__(73);
 
@@ -1009,7 +1009,7 @@ function assignRouterState(router, _ref) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_useQueries___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_useQueries__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename__ = __webpack_require__(123);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_history_lib_useBasename__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__ = __webpack_require__(229);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__ = __webpack_require__(230);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_history_lib_createMemoryHistory__);
 /* harmony export (immutable) */ exports["a"] = createMemoryHistory;
 
@@ -1053,11 +1053,11 @@ function createRouterHistory(createHistory) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__routerWarning__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__computeChangedRoutes__ = __webpack_require__(429);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TransitionUtils__ = __webpack_require__(426);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isActive__ = __webpack_require__(433);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getComponents__ = __webpack_require__(430);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchRoutes__ = __webpack_require__(435);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__computeChangedRoutes__ = __webpack_require__(430);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__TransitionUtils__ = __webpack_require__(427);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__isActive__ = __webpack_require__(434);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__getComponents__ = __webpack_require__(431);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__matchRoutes__ = __webpack_require__(436);
 /* harmony export (immutable) */ exports["a"] = createTransitionManager;
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
@@ -1325,21 +1325,21 @@ function createTransitionManager(history, routes) {
 
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Router__ = __webpack_require__(425);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Router__ = __webpack_require__(426);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "Router", function() { return __WEBPACK_IMPORTED_MODULE_0__Router__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__Link__ = __webpack_require__(171);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "Link", function() { return __WEBPACK_IMPORTED_MODULE_1__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__IndexLink__ = __webpack_require__(421);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__IndexLink__ = __webpack_require__(422);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "IndexLink", function() { return __WEBPACK_IMPORTED_MODULE_2__IndexLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__withRouter__ = __webpack_require__(436);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__withRouter__ = __webpack_require__(437);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__withRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__ = __webpack_require__(422);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__ = __webpack_require__(423);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "IndexRedirect", function() { return __WEBPACK_IMPORTED_MODULE_4__IndexRedirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__IndexRoute__ = __webpack_require__(423);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__IndexRoute__ = __webpack_require__(424);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "IndexRoute", function() { return __WEBPACK_IMPORTED_MODULE_5__IndexRoute__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(173);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(424);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(425);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__RouteUtils__ = __webpack_require__(23);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "createRoutes", function() { return __WEBPACK_IMPORTED_MODULE_15__RouteUtils__["a"]; });
@@ -1348,17 +1348,17 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "routerShape", function() { return __WEBPACK_IMPORTED_MODULE_16__PropTypes__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "locationShape", function() { return __WEBPACK_IMPORTED_MODULE_16__PropTypes__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__PropTypes__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__match__ = __webpack_require__(434);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__match__ = __webpack_require__(435);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "match", function() { return __WEBPACK_IMPORTED_MODULE_9__match__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__useRouterHistory__ = __webpack_require__(179);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "useRouterHistory", function() { return __WEBPACK_IMPORTED_MODULE_10__useRouterHistory__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__PatternUtils__ = __webpack_require__(36);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "formatPattern", function() { return __WEBPACK_IMPORTED_MODULE_17__PatternUtils__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__applyRouterMiddleware__ = __webpack_require__(427);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__applyRouterMiddleware__ = __webpack_require__(428);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "applyRouterMiddleware", function() { return __WEBPACK_IMPORTED_MODULE_11__applyRouterMiddleware__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__browserHistory__ = __webpack_require__(428);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__browserHistory__ = __webpack_require__(429);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "browserHistory", function() { return __WEBPACK_IMPORTED_MODULE_12__browserHistory__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__hashHistory__ = __webpack_require__(432);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__hashHistory__ = __webpack_require__(433);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "hashHistory", function() { return __WEBPACK_IMPORTED_MODULE_13__hashHistory__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__createMemoryHistory__ = __webpack_require__(175);
 /* harmony reexport (binding) */ __webpack_require__.d(exports, "createMemoryHistory", function() { return __WEBPACK_IMPORTED_MODULE_14__createMemoryHistory__["a"]; });
@@ -1448,7 +1448,7 @@ function useRouterHistory(createHistory) {
 
 
 var React = __webpack_require__(2);
-var factory = __webpack_require__(208);
+var factory = __webpack_require__(209);
 
 if (typeof React === 'undefined') {
   throw Error(
@@ -1650,11 +1650,11 @@ var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Home = __webpack_require__(205);
+var _Home = __webpack_require__(206);
 
 var _Home2 = _interopRequireDefault(_Home);
 
-var _Profile = __webpack_require__(206);
+var _Profile = __webpack_require__(207);
 
 var _Profile2 = _interopRequireDefault(_Profile);
 
@@ -1666,9 +1666,13 @@ var _Ability = __webpack_require__(202);
 
 var _Ability2 = _interopRequireDefault(_Ability);
 
-var _Project = __webpack_require__(207);
+var _Project = __webpack_require__(208);
 
 var _Project2 = _interopRequireDefault(_Project);
+
+var _Hackathon = __webpack_require__(205);
+
+var _Hackathon2 = _interopRequireDefault(_Hackathon);
 
 var _Footer = __webpack_require__(204);
 
@@ -1686,6 +1690,7 @@ var Base = function Base(_ref) {
     _react2.default.createElement(_Profile2.default, null),
     _react2.default.createElement(_Experience2.default, null),
     _react2.default.createElement(_Ability2.default, null),
+    _react2.default.createElement(_Hackathon2.default, null),
     _react2.default.createElement(_Project2.default, null),
     _react2.default.createElement(_Footer2.default, null)
   );
@@ -1711,7 +1716,7 @@ var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ability = __webpack_require__(522);
+var _ability = __webpack_require__(523);
 
 var _ability2 = _interopRequireDefault(_ability);
 
@@ -1926,7 +1931,7 @@ var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _experience = __webpack_require__(523);
+var _experience = __webpack_require__(524);
 
 var _experience2 = _interopRequireDefault(_experience);
 
@@ -2169,7 +2174,7 @@ var Footer = function (_Component) {
             "div",
             { className: "container footer" },
             _react2.default.createElement(
-              "h1",
+              "h2",
               null,
               "Contact"
             ),
@@ -2179,7 +2184,7 @@ var Footer = function (_Component) {
               { className: "flex footer-link" },
               _react2.default.createElement(
                 "div",
-                { className: "flex-1-2" },
+                { className: "col-1-2" },
                 _react2.default.createElement(
                   "ul",
                   { className: "no-bullets" },
@@ -2193,7 +2198,7 @@ var Footer = function (_Component) {
                       _react2.default.createElement(
                         "span",
                         null,
-                        "     https://github.com/ultralabed"
+                        "https://github.com/ultralabed"
                       )
                     )
                   ),
@@ -2207,7 +2212,7 @@ var Footer = function (_Component) {
                       _react2.default.createElement(
                         "span",
                         null,
-                        "     ultralabed@gmail.com     "
+                        "ultralabed@gmail.com"
                       )
                     )
                   )
@@ -2215,7 +2220,7 @@ var Footer = function (_Component) {
               ),
               _react2.default.createElement(
                 "div",
-                { className: "flex-1-2" },
+                { className: "col-1-2" },
                 _react2.default.createElement(
                   "ul",
                   { className: "no-bullets" },
@@ -2224,12 +2229,26 @@ var Footer = function (_Component) {
                     null,
                     _react2.default.createElement(
                       "a",
-                      { href: "https://www.linkedin.com/in/edward-shih-43942786/", target: "_blank" },
+                      { href: "https://goo.gl/MA91nQ", target: "_blank" },
                       _react2.default.createElement("span", { className: "icon icon-linkedin" }),
                       _react2.default.createElement(
                         "span",
                         null,
-                        "     https://www.linkedin.com/in/edward-shih-43942786/"
+                        "https://goo.gl/MA91nQ"
+                      )
+                    )
+                  ),
+                  _react2.default.createElement(
+                    "li",
+                    null,
+                    _react2.default.createElement(
+                      "a",
+                      { href: "tel:+886912834980", target: "_blank" },
+                      _react2.default.createElement("span", { className: "icon icon-phone" }),
+                      _react2.default.createElement(
+                        "span",
+                        null,
+                        "+886 912834980"
                       )
                     )
                   )
@@ -2251,6 +2270,134 @@ exports.default = Footer;
 /***/ },
 
 /***/ 205:
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(2);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _hackathon = __webpack_require__(525);
+
+var _hackathon2 = _interopRequireDefault(_hackathon);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Hackathon = function (_Component) {
+  _inherits(Hackathon, _Component);
+
+  function Hackathon(props) {
+    _classCallCheck(this, Hackathon);
+
+    var _this = _possibleConstructorReturn(this, (Hackathon.__proto__ || Object.getPrototypeOf(Hackathon)).call(this, props));
+
+    _this.state = _hackathon2.default;
+    return _this;
+  }
+
+  _createClass(Hackathon, [{
+    key: 'renderHackathonView',
+    value: function renderHackathonView(hackathons) {
+      var list = hackathons.map(function (hackathon) {
+        return _react2.default.createElement(
+          'div',
+          { className: 'col-1-2 project-content-box' },
+          _react2.default.createElement(
+            'figure',
+            { className: 'effect' },
+            _react2.default.createElement('img', { src: hackathon.image, alt: hackathon.description, className: 'project-image' }),
+            _react2.default.createElement(
+              'figcaption',
+              { className: 'project-detail' },
+              _react2.default.createElement(
+                'h3',
+                null,
+                hackathon.title
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                hackathon.description
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(
+                  'strong',
+                  null,
+                  'Tags:'
+                ),
+                ' ',
+                _react2.default.createElement('br', null),
+                hackathon.tags
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: hackathon.link, target: '_blank' },
+                'View more'
+              ),
+              _react2.default.createElement(
+                'span',
+                { className: 'icon' },
+                _react2.default.createElement('span', { className: 'glyphicon glyphicon-new-window' })
+              )
+            )
+          )
+        );
+      });
+      return [list];
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'section',
+        { id: 'hackathon' },
+        _react2.default.createElement(
+          'div',
+          { className: 'container project' },
+          _react2.default.createElement(
+            'div',
+            { className: 'project-head' },
+            _react2.default.createElement(
+              'h2',
+              null,
+              'Hackathons'
+            ),
+            _react2.default.createElement('div', { className: 'split-line split-line-light flex-1-1' })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'project-content' },
+            this.renderHackathonView(this.state.hackathons)
+          )
+        )
+      );
+    }
+  }]);
+
+  return Hackathon;
+}(_react.Component);
+
+exports.default = Hackathon;
+
+/***/ },
+
+/***/ 206:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2326,7 +2473,7 @@ exports.default = Home;
 
 /***/ },
 
-/***/ 206:
+/***/ 207:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2342,7 +2489,7 @@ var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _profile = __webpack_require__(524);
+var _profile = __webpack_require__(526);
 
 var _profile2 = _interopRequireDefault(_profile);
 
@@ -2464,7 +2611,7 @@ exports.default = Profile;
 
 /***/ },
 
-/***/ 207:
+/***/ 208:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2480,7 +2627,7 @@ var _react = __webpack_require__(2);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _project = __webpack_require__(525);
+var _project = __webpack_require__(527);
 
 var _project2 = _interopRequireDefault(_project);
 
@@ -2510,8 +2657,48 @@ var Project = function (_Component) {
       var list = projects.map(function (project) {
         return _react2.default.createElement(
           'div',
-          { className: 'flex-1-2 project-box' },
-          _react2.default.createElement('img', { src: project.image, alt: project.description, className: 'project-image' })
+          { className: 'col-1-2 project-content-box' },
+          _react2.default.createElement(
+            'figure',
+            { className: 'effect' },
+            _react2.default.createElement('img', { src: project.image, alt: project.description, className: 'project-image' }),
+            _react2.default.createElement(
+              'figcaption',
+              { className: 'project-detail' },
+              _react2.default.createElement(
+                'h3',
+                null,
+                project.title
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                project.description
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                _react2.default.createElement(
+                  'strong',
+                  null,
+                  'Tags:'
+                ),
+                ' ',
+                _react2.default.createElement('br', null),
+                project.tags
+              ),
+              _react2.default.createElement(
+                'a',
+                { href: project.link, target: '_blank' },
+                'View more'
+              ),
+              _react2.default.createElement(
+                'span',
+                { className: 'icon' },
+                _react2.default.createElement('span', { className: 'glyphicon glyphicon-new-window' })
+              )
+            )
+          )
         );
       });
       return [list];
@@ -2537,7 +2724,7 @@ var Project = function (_Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'flex' },
+            { className: 'project-content' },
             this.renderProjectView(this.state.projects)
           )
         )
@@ -2552,7 +2739,7 @@ exports.default = Project;
 
 /***/ },
 
-/***/ 208:
+/***/ 209:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3432,7 +3619,7 @@ module.exports = factory;
 
 /***/ },
 
-/***/ 224:
+/***/ 225:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3495,7 +3682,7 @@ var loopAsync = exports.loopAsync = function loopAsync(turns, work, callback) {
 
 /***/ },
 
-/***/ 225:
+/***/ 226:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3638,7 +3825,7 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 
 /***/ },
 
-/***/ 226:
+/***/ 227:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3682,7 +3869,7 @@ var replaceLocation = exports.replaceLocation = function replaceLocation(locatio
 
 /***/ },
 
-/***/ 227:
+/***/ 228:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3702,7 +3889,7 @@ var _BrowserProtocol = __webpack_require__(70);
 
 var BrowserProtocol = _interopRequireWildcard(_BrowserProtocol);
 
-var _RefreshProtocol = __webpack_require__(226);
+var _RefreshProtocol = __webpack_require__(227);
 
 var RefreshProtocol = _interopRequireWildcard(_RefreshProtocol);
 
@@ -3782,7 +3969,7 @@ exports.default = createBrowserHistory;
 
 /***/ },
 
-/***/ 228:
+/***/ 229:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3804,7 +3991,7 @@ var _ExecutionEnvironment = __webpack_require__(71);
 
 var _DOMUtils = __webpack_require__(49);
 
-var _HashProtocol = __webpack_require__(225);
+var _HashProtocol = __webpack_require__(226);
 
 var HashProtocol = _interopRequireWildcard(_HashProtocol);
 
@@ -3936,7 +4123,100 @@ exports.default = createHashHistory;
 
 /***/ },
 
-/***/ 229:
+/***/ 23:
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony export (immutable) */ exports["b"] = isReactChildren;
+/* harmony export (immutable) */ exports["c"] = createRouteFromReactElement;
+/* unused harmony export createRoutesFromReactChildren */
+/* harmony export (immutable) */ exports["a"] = createRoutes;
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+
+
+function isValidChild(object) {
+  return object == null || __WEBPACK_IMPORTED_MODULE_0_react___default.a.isValidElement(object);
+}
+
+function isReactChildren(object) {
+  return isValidChild(object) || Array.isArray(object) && object.every(isValidChild);
+}
+
+function createRoute(defaultProps, props) {
+  return _extends({}, defaultProps, props);
+}
+
+function createRouteFromReactElement(element) {
+  var type = element.type;
+  var route = createRoute(type.defaultProps, element.props);
+
+  if (route.children) {
+    var childRoutes = createRoutesFromReactChildren(route.children, route);
+
+    if (childRoutes.length) route.childRoutes = childRoutes;
+
+    delete route.children;
+  }
+
+  return route;
+}
+
+/**
+ * Creates and returns a routes object from the given ReactChildren. JSX
+ * provides a convenient way to visualize how routes in the hierarchy are
+ * nested.
+ *
+ *   import { Route, createRoutesFromReactChildren } from 'react-router'
+ *
+ *   const routes = createRoutesFromReactChildren(
+ *     <Route component={App}>
+ *       <Route path="home" component={Dashboard}/>
+ *       <Route path="news" component={NewsFeed}/>
+ *     </Route>
+ *   )
+ *
+ * Note: This method is automatically used when you provide <Route> children
+ * to a <Router> component.
+ */
+function createRoutesFromReactChildren(children, parentRoute) {
+  var routes = [];
+
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.Children.forEach(children, function (element) {
+    if (__WEBPACK_IMPORTED_MODULE_0_react___default.a.isValidElement(element)) {
+      // Component classes may have a static create* method.
+      if (element.type.createRouteFromReactElement) {
+        var route = element.type.createRouteFromReactElement(element, parentRoute);
+
+        if (route) routes.push(route);
+      } else {
+        routes.push(createRouteFromReactElement(element));
+      }
+    }
+  });
+
+  return routes;
+}
+
+/**
+ * Creates and returns an array of routes from the given object which
+ * may be a JSX route, a plain object route, or an array of either.
+ */
+function createRoutes(routes) {
+  if (isReactChildren(routes)) {
+    routes = createRoutesFromReactChildren(routes);
+  } else if (routes && !Array.isArray(routes)) {
+    routes = [routes];
+  }
+
+  return routes;
+}
+
+/***/ },
+
+/***/ 230:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4080,99 +4360,6 @@ var createMemoryHistory = function createMemoryHistory() {
 };
 
 exports.default = createMemoryHistory;
-
-/***/ },
-
-/***/ 23:
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony export (immutable) */ exports["b"] = isReactChildren;
-/* harmony export (immutable) */ exports["c"] = createRouteFromReactElement;
-/* unused harmony export createRoutesFromReactChildren */
-/* harmony export (immutable) */ exports["a"] = createRoutes;
-var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-
-
-
-function isValidChild(object) {
-  return object == null || __WEBPACK_IMPORTED_MODULE_0_react___default.a.isValidElement(object);
-}
-
-function isReactChildren(object) {
-  return isValidChild(object) || Array.isArray(object) && object.every(isValidChild);
-}
-
-function createRoute(defaultProps, props) {
-  return _extends({}, defaultProps, props);
-}
-
-function createRouteFromReactElement(element) {
-  var type = element.type;
-  var route = createRoute(type.defaultProps, element.props);
-
-  if (route.children) {
-    var childRoutes = createRoutesFromReactChildren(route.children, route);
-
-    if (childRoutes.length) route.childRoutes = childRoutes;
-
-    delete route.children;
-  }
-
-  return route;
-}
-
-/**
- * Creates and returns a routes object from the given ReactChildren. JSX
- * provides a convenient way to visualize how routes in the hierarchy are
- * nested.
- *
- *   import { Route, createRoutesFromReactChildren } from 'react-router'
- *
- *   const routes = createRoutesFromReactChildren(
- *     <Route component={App}>
- *       <Route path="home" component={Dashboard}/>
- *       <Route path="news" component={NewsFeed}/>
- *     </Route>
- *   )
- *
- * Note: This method is automatically used when you provide <Route> children
- * to a <Router> component.
- */
-function createRoutesFromReactChildren(children, parentRoute) {
-  var routes = [];
-
-  __WEBPACK_IMPORTED_MODULE_0_react___default.a.Children.forEach(children, function (element) {
-    if (__WEBPACK_IMPORTED_MODULE_0_react___default.a.isValidElement(element)) {
-      // Component classes may have a static create* method.
-      if (element.type.createRouteFromReactElement) {
-        var route = element.type.createRouteFromReactElement(element, parentRoute);
-
-        if (route) routes.push(route);
-      } else {
-        routes.push(createRouteFromReactElement(element));
-      }
-    }
-  });
-
-  return routes;
-}
-
-/**
- * Creates and returns an array of routes from the given object which
- * may be a JSX route, a plain object route, or an array of either.
- */
-function createRoutes(routes) {
-  if (isReactChildren(routes)) {
-    routes = createRoutesFromReactChildren(routes);
-  } else if (routes && !Array.isArray(routes)) {
-    routes = [routes];
-  }
-
-  return routes;
-}
 
 /***/ },
 
@@ -4343,12 +4530,12 @@ var locationsAreEqual = exports.locationsAreEqual = function locationsAreEqual(a
 
 /***/ },
 
-/***/ 339:
+/***/ 340:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var strictUriEncode = __webpack_require__(518);
+var strictUriEncode = __webpack_require__(519);
 var objectAssign = __webpack_require__(5);
 
 function encoderForArrayFormat(opts) {
@@ -4838,7 +5025,7 @@ function _resetWarned() {
 
 /***/ },
 
-/***/ 421:
+/***/ 422:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4868,7 +5055,7 @@ var IndexLink = __WEBPACK_IMPORTED_MODULE_1_create_react_class___default()({
 
 /***/ },
 
-/***/ 422:
+/***/ 423:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4924,7 +5111,7 @@ var IndexRedirect = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 
 /***/ },
 
-/***/ 423:
+/***/ 424:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4981,7 +5168,7 @@ var IndexRoute = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 
 /***/ },
 
-/***/ 424:
+/***/ 425:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5035,7 +5222,7 @@ var Route = __WEBPACK_IMPORTED_MODULE_0_create_react_class___default()({
 
 /***/ },
 
-/***/ 425:
+/***/ 426:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5206,7 +5393,7 @@ var Router = __WEBPACK_IMPORTED_MODULE_2_create_react_class___default()({
 
 /***/ },
 
-/***/ 426:
+/***/ 427:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5371,7 +5558,7 @@ function getTransitionUtils() {
 
 /***/ },
 
-/***/ 427:
+/***/ 428:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5423,11 +5610,11 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 /***/ },
 
-/***/ 428:
+/***/ 429:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__ = __webpack_require__(228);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_createBrowserHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createRouterHistory__ = __webpack_require__(176);
 
@@ -5436,7 +5623,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 /***/ },
 
-/***/ 429:
+/***/ 430:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5514,7 +5701,7 @@ function computeChangedRoutes(prevState, nextState) {
 
 /***/ },
 
-/***/ 430:
+/***/ 431:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5557,7 +5744,7 @@ function getComponents(nextState, callback) {
 
 /***/ },
 
-/***/ 431:
+/***/ 432:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5586,11 +5773,11 @@ function getRouteParams(route, params) {
 
 /***/ },
 
-/***/ 432:
+/***/ 433:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__ = __webpack_require__(229);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_history_lib_createHashHistory__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__createRouterHistory__ = __webpack_require__(176);
 
@@ -5599,7 +5786,7 @@ function getRouteParams(route, params) {
 
 /***/ },
 
-/***/ 433:
+/***/ 434:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5753,7 +5940,7 @@ function isActive(_ref, indexOnly, currentLocation, routes, params) {
 
 /***/ },
 
-/***/ 434:
+/***/ 435:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5823,7 +6010,7 @@ function match(_ref, callback) {
 
 /***/ },
 
-/***/ 435:
+/***/ 436:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6076,7 +6263,7 @@ function matchRoutes(routes, location, callback, remainingPathname) {
 
 /***/ },
 
-/***/ 436:
+/***/ 437:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6271,7 +6458,7 @@ var isExtraneousPopstateEvent = exports.isExtraneousPopstateEvent = function isE
 
 /***/ },
 
-/***/ 518:
+/***/ 519:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6285,35 +6472,42 @@ module.exports = function (str) {
 
 /***/ },
 
-/***/ 522:
+/***/ 523:
 /***/ function(module, exports) {
 
 module.exports = {"frontend":[{"skill":"JavaScript","stars":5},{"skill":"AngularJS","stars":5},{"skill":"CSS","stars":5},{"skill":"HTML","stars":5},{"skill":"JSON","stars":5},{"skill":"ReactJS","stars":4},{"skill":"SASS","stars":4},{"skill":"Materialize","stars":4},{"skill":"Bootstrap","stars":4},{"skill":"jQuery","stars":4},{"skill":"JSONP","stars":3}],"backend":[{"skill":"PHP","stars":5},{"skill":"NodeJS","stars":4},{"skill":"Laravel Framework","stars":4},{"skill":"MySQL","stars":3},{"skill":"MongoDB","stars":3},{"skill":"ThinkPHP","stars":3},{"skill":"CodeIgnitor","stars":3}],"others":[{"skill":"Git","stars":5},{"skill":"Mocha","stars":4},{"skill":"Chai","stars":4},{"skill":"ReactNatvie","stars":4},{"skill":"Gulp","stars":4},{"skill":"Webpack","stars":4},{"skill":"Python","stars":3},{"skill":"Firebase","stars":3},{"skill":"Docker","stars":3},{"skill":"Wordpress","stars":3}],"languages":[{"skill":"Chinese (Native Speaker)","stars":5},{"skill":"English (Fluent)","stars":5},{"skill":"Japanese (Can survive)","stars":2},{"skill":"čeština (Can cheer)","stars":1}]}
 
 /***/ },
 
-/***/ 523:
+/***/ 524:
 /***/ function(module, exports) {
 
 module.exports = {"educations":[{"school":"National Taipei University of Technology, Taiwan","duration":"Sep 2012 - June 2014","degree":"Master Electrical Engineering","content":"Here, I learned OOAD, SQL, PHP, MVC, Angular and more. I also started working in Cloudpe Corp. and learned about how the real life platform is."},{"school":"Czech Technical University, Czech","duration":"Sep 2013 - Feb 2014","degree":"Exchange student","content":"I spent half year in CTU to enjoy a life in eastern Europe. Life there was nice and I continued making a web based video conference system using ThinkPHP, Flash, and Bootstrap."},{"school":"Osaka Institute of Technology, Japan","duration":"Jun 2013 - Aug 2013","degree":"Exchange student","content":"I am lucky enough to have the chance to be an exchange student to OIT, and I learned a lot during the time there. I actually made a drawing robot from scratch. I did the math and equations, design, programs and finally, I assemble all the parts, and in the end, it can draw anything that I wanted, isn't that cool?"},{"school":"National Taipei University of Technology, Taiwan","duration":"Sep 2008 - June 2012","degree":"Bachelor Electrical Engineering","content":"I spend lots of time here thinking about what I want to be in the future. I realized in my third year of university that I wanted to make a difference in the world and the best approach was to dig into the websites, and so I started making web based video conference system using Flash / ActionScript."}],"careers":[{"company":"Cloudpe Corp., Taiwan","duration":"Sep 2014 - Present","role":"Full-stack Engineer","jobDescription":["Design and develop new projects.","Research and introduce new technology to improve the performance of the current system.","Lead and guide junior programmer."],"achievements":["Solved Red 5 streaming server's disability in streaming multiple mp4 files and reduced server loading.","Increased Red5 video streaming server's performance about 20%.","Introduced Gulp and Webpack automation tools to speed up web development.","Provided WebRTC, SIP, and instant chat room features.","Provided new Lecture video streaming server with HLS features to support cross-platform video browsing.","Provided multiple video streamings in iOS App using Air Native Extension (ANE).","Use React Native to build Lecture One Button Studio App.","Refactored part of VOD platform code base."]},{"company":"Front End Developer Consultant","duration":"Apr 2016 - Jul 2016","role":"Front End Developer Consultant","jobDescription":["Provide consulting to start up for following skills Angular 2, Angular 1.x, Sass, Javascript, PHP."],"achievements":[]},{"company":"Cloudpe Corp., Taiwan","duration":"Mar 2012 - July 2014","role":"Assistant Software Engineer","jobDescription":["Video conferencing system development.","Assist E-Learning platform development.","Mobile Applications development based on Flash."],"achievements":["Implemented the following features: courses and batches management, student attendance control, timetable, multiple dashboards, user management, school/event calendar, and email integration."]}]}
 
 /***/ },
 
-/***/ 524:
+/***/ 525:
+/***/ function(module, exports) {
+
+module.exports = {"hackathons":[{"title":"Booking.com 2017","image":"./images/booking_com.jpg","description":"Provided a new way for business enterprises to book hotels for their companies.","tags":"AngularJS","link":"https://github.com/ultralabed/Hackathon-Booking.com-Bidding-System-Taipei"},{"title":"Fishackathon 2016","image":"./images/mda.jpg","description":"Provided Animal Protection Association to check whether the ship has illegal fishing records.","tags":"AngularJS, Laravel, MySQL","link":"http://coomysky.github.io/fishackathon2016-client/#!/main/near"},{"title":"Smart-city 2016","image":"./images/smart_city.jpg","description":"Created instant report app for citizens to upload videos, photos, and geolocations to the government.","tags":"Monaca, AngularJS, NodeJS","link":"https://github.com/ultralabed/Hackathon-Smart-City-Taipei-Open-City-APP"},{"title":"Hackathon Taiwan 2015","image":"./images/sous_vide_machine.jpg","description":"Provided kitchen novice to make sous vide steak just like the 5-star chef. ","tags":"Ionic, AngularJS, Laravel, Arduino","link":"https://github.com/ultralabed/Hackathon-Taipei-Sous-Vide-Machine"}]}
+
+/***/ },
+
+/***/ 526:
 /***/ function(module, exports) {
 
 module.exports = {"aboutMeContent":"I am a front-end engineer with 3 years of experience in web delopment, and I have used AngularJS and ReactJS to build web applications for more than 2 years. I also learned Python, Docker, and other programming tools by myself and use it in the company's side projects.","name":"Edward Shih","age":"28","location":"Taipei, Taiwan, Earth"}
 
 /***/ },
 
-/***/ 525:
+/***/ 527:
 /***/ function(module, exports) {
 
-module.exports = {"projects":[{"title":"Kidguard","image":"./images/kg.jpg","description":"KidGuard provides information & tools for parents to keep their kids safe online.","tags":"AngularJS, NodeJS"},{"title":"Orderspoon","image":"./images/orderspoon.jpg","description":"Ordered Spoon is an online restaurant ordering system that provides eaters to find and order their favorite food online for dining in or take outs.","tags":"AngularJS, Codignitor, "}]}
+module.exports = {"projects":[{"title":"Kidguard","image":"./images/kg.jpg","description":"KidGuard provides information & tools for parents to keep their kids safe online.","tags":"AngularJS, NodeJS","link":"https://www.kidguard.com/"},{"title":"Orderspoon","image":"./images/orderspoon.jpg","description":"Ordered Spoon provides eaters to find and order their favorite food online for dining in or take outs.","tags":"AngularJS, Codignitor, Google Map API","link":"https://www.orderspoon.com/"}]}
 
 /***/ },
 
-/***/ 526:
+/***/ 528:
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6486,7 +6680,7 @@ var canUseDOM = exports.canUseDOM = !!(typeof window !== 'undefined' && window.d
 
 exports.__esModule = true;
 
-var _AsyncUtils = __webpack_require__(224);
+var _AsyncUtils = __webpack_require__(225);
 
 var _PathUtils = __webpack_require__(20);
 
@@ -6691,4 +6885,4 @@ exports.default = runTransitionHook;
 
 /***/ }
 
-},[526]);
+},[528]);

@@ -78,7 +78,7 @@ body {
   max-width: 960px;
 }
 .container {
-  padding: 40px 100px;
+  padding: 50px 100px;
 }
 
 /*
@@ -270,7 +270,7 @@ p a {
   ========================================
 */
 #profile {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .profile {
@@ -331,7 +331,7 @@ p a {
 */
 
 #ability {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .ability-title {
@@ -369,17 +369,36 @@ p a {
 
 /*
   ========================================
+  Hackathon
+  ========================================
+*/
+
+#hackathon {
+  background-color: #f3efe0;
+}
+
+/*
+  ========================================
   Project
   ========================================
 */
 
 #project {
-  background-color: #f3efe0;
+  background-color: #fff;
 }
 
-.project-box {
+.project-content {
+  font-size: 0px;
+}
+
+.project-content-box {
   position:relative;
-  margin: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.project-content-box:nth-child(2n) {
+  margin-left: 6%;
 }
 
 .project-image {
@@ -391,19 +410,24 @@ p a {
   opacity: .6;
 }
 
-.project-box:hover .project-box-content{
-  display: block;
+figure {
+  position: relative;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: left;
 }
-
-.project-box-content {
-  /*display: none;*/
+figure .effect {
+  background: #22A39F;
+  color: #FFF;
+}
+figure figcaption {
+  padding: 20px 30px;
   position: absolute;
-  top: 100%;
-  left: 50%;
-}
-
-.project-box-content h4 {
-  text-align: center;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
 }
 
 /*
@@ -428,18 +452,27 @@ p a {
   margin: auto;
 }
 
-.footer h1 {
-  color: #ffffff;
-  font-size: 60px;
-  font-weight: 800;
-  line-height: 66px;
+.footer h2 {
+  color: #b4b3b3;
 }
 
 .footer-link {
   text-align: left;
-  font-size: 20px;
-  line-height: 32px;
 }
+
+.footer-link a .icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.footer-link a {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: #b4b3b3;
+}
+
+
 
 /*
   ========================================
@@ -488,7 +521,7 @@ p a {
 }
 
 .flex-1-2 {
-  flex:1 1 49%;
+  flex:1 1 50%;
 }
 
 .flex-1-4 {
@@ -499,6 +532,15 @@ p a {
   .flex-1-3 {
     flex:1 1 100%;
   }
+}
+
+.col-1-2 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-2 {
+  width: 47%;
 }
 
 .no-bullets {
@@ -520,4 +562,103 @@ p a {
 
 .icon-mail {
   background-position: 0px -96px;
+}
+
+.icon-phone {
+  background-position: 0px -64px;
+}
+
+/*---------------*/
+/***** EFFECT *****/
+/*---------------*/
+
+figure.effect {
+  background: #ddd;
+	color: #333;
+}
+
+figure.effect img {
+	width: calc(100% + 20px);
+	transition: opacity 0.35s, transform 0.35s;
+	transform: translate3d(-10px,0,0);
+	backface-visibility: hidden;
+}
+
+figure.effect:hover img {
+	opacity: 0.2;
+	transform: translate3d(0,0,0);
+}
+
+figure.effect figcaption {
+	text-align: left;
+}
+
+figure.effect h3 {
+  margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 20px;
+	opacity: 0;
+	transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect:hover h3 {
+	opacity: 1;
+}
+
+figure.effect h3::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	transition: transform 0.35s;
+	transform: translate3d(-100%,0,0);
+}
+
+figure.effect:hover h3::after {
+	transform: translate3d(0,0,0);
+}
+
+figure.effect p {
+	/*padding-top: 10px;*/
+	opacity: 0;
+	transition: opacity 0.35s, transform 0.35s;
+	transform: translate3d(100%,0,0);
+}
+
+figure.effect:hover p {
+	opacity: 1;
+	transform: translate3d(0,0,0);
+}
+
+figure .icon {
+  background: #888;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 48px;
+  height: 48px;
+}
+
+figure .icon span {
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px;
+}
+
+figure a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
 }
