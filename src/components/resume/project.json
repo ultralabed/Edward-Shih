@@ -1,0 +1,24 @@
+{ "projects":
+  [
+    { "title":"Kidguard",
+      "image":"./assets/kg.jpg",
+      "description":"KidGuard provides information & tools for parents to keep their kids safe online.",
+      "tags":"AngularJS, NodeJS"
+    },
+    { "title":"Orderspoon",
+      "image":"./assets/orderspoon.jpg",
+      "description": "Ordered Spoon is an online restaurant ordering system that provides eaters to find and order their favorite food online for dining in or take outs.",
+      "tags":"AngularJS, Codignitor, "
+    },
+    { "title":"Fishackathon - Maritime Domain Awareness",
+      "image":"./assets/orderspoon.jpg",
+      "description": "Provided coast guards and Animal Protection Association to check whether the ship they track has illegal fishing records or others.",
+      "tags":"AngularJS, Laravel, MySQL"
+    },
+    { "title":"Hackathon Taiwan - Sous vide machine & app",
+      "image":"./assets/orderspoon.jpg",
+      "description": "Provided kitchen novice to make sous vide steak just like the 5-star chef. ",
+      "tags":"Ionic, AngularJS, Laravel, Arduino"
+    }
+  ]
+}
