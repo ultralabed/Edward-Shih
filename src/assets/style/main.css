@@ -231,7 +231,7 @@ p a {
 
 .home-bk {
   height: 100vh;
-  background: url('../home_bk.jpg') no-repeat center;
+  background: url('../images/home_bk.jpg') no-repeat center;
   background-size: cover;
 }
 
@@ -509,7 +509,7 @@ p a {
 
 .icon {
   display: inline-block;
-  background: url(../icons.png) no-repeat;
+  background: url(../images/icons.png) no-repeat;
   height: 32px;
   width: 32px;
 }

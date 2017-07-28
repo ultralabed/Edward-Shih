@@ -8,7 +8,6 @@ class Project extends Component {
   }
 
   renderProjectView(projects) {
-    console.log(projects)
     let list = projects.map((project) => {
       return (
         <div className="flex-1-2 project-box">
