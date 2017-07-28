@@ -78,7 +78,7 @@ body {
   max-width: 960px;
 }
 .container {
-  padding: 40px 100px;
+  padding: 50px 100px;
 }
 
 /*
@@ -452,18 +452,27 @@ figure figcaption {
   margin: auto;
 }
 
-.footer h1 {
-  color: #fff;
-  font-size: 60px;
-  font-weight: 800;
-  line-height: 66px;
+.footer h2 {
+  color: #b4b3b3;
 }
 
 .footer-link {
   text-align: left;
-  font-size: 20px;
-  line-height: 32px;
 }
+
+.footer-link a .icon {
+  float: left;
+  margin-right: 10px;
+}
+
+.footer-link a {
+  display: block;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: #b4b3b3;
+}
+
+
 
 /*
   ========================================
@@ -553,6 +562,10 @@ figure figcaption {
 
 .icon-mail {
   background-position: 0px -96px;
+}
+
+.icon-phone {
+  background-position: 0px -64px;
 }
 
 /*---------------*/
