@@ -6,8 +6,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 // All the vendor libs that only need to be update once
 const VENDOR_LIBS = [
-  'react', 'redux', 'react-redux', 'react-dom',
-  'react-input-range', 'redux-form', 'redux-thunk'
+  'react', 'redux', 'react-redux', 'react-dom', 'redux-thunk'
 ];
 
 module.exports = {
