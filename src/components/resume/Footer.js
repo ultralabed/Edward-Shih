@@ -10,7 +10,8 @@ class Footer extends Component {
             <h2>Contact</h2>
             <div className="split-line split-line-light"></div>
             <div className="flex footer-link">
-            	<div className="col-1-2">
+              <div className="col col-1-6"></div>
+            	<div className="col col-1-3">
             		<ul className="no-bullets">
             			<li>
             				<a href="https://github.com/ultralabed" target="_blank">
@@ -26,7 +27,8 @@ class Footer extends Component {
                   </li>
             		</ul>
             	</div>
-            	<div className="col-1-2">
+              <div className="col col-1-6"></div>
+            	<div className="col col-1-3">
             		<ul className="no-bullets">
                   <li>
                     <a href="https://goo.gl/MA91nQ" target="_blank">

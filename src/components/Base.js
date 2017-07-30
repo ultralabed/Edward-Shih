@@ -14,8 +14,8 @@ const Base = ({ children }) => {
       <Profile />
       <Experience />
       <Ability />
-      <Hackathon />
       <Project />
+      <Hackathon />
       <Footer />
     </div>
   );

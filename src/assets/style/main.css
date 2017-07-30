@@ -309,7 +309,7 @@ p a {
 }
 
 .experience ul li {
-  list-style: circle;
+  list-style: disc;
   margin-left: 20px;
 }
 
@@ -321,6 +321,7 @@ p a {
 }
 
 .experience-strong-light {
+  margin-top: 10px;
   font-weight: 400;
 }
 
@@ -374,7 +375,7 @@ p a {
 */
 
 #hackathon {
-  background-color: #f3efe0;
+  background-color: #fff;
 }
 
 /*
@@ -384,7 +385,7 @@ p a {
 */
 
 #project {
-  background-color: #fff;
+  background-color: #f3efe0;
 }
 
 .project-content {
@@ -534,13 +535,21 @@ figure figcaption {
   }
 }
 
-.col-1-2 {
+.col {
   display: inline-block;
   vertical-align: top;
 }
 
 .col-1-2 {
   width: 47%;
+}
+
+.col-1-3 {
+  width: 33%;
+}
+
+.col-1-6 {
+  width: 15%;
 }
 
 .no-bullets {

@@ -10,7 +10,7 @@ class Project extends Component {
   renderProjectView(projects) {
     let list = projects.map((project) => {
       return (
-        <div className="col-1-2 project-content-box">
+        <div className="col col-1-2 project-content-box">
           <figure className="effect">
       			<img src={project.image} alt={project.description} className="project-image"/>
       			<figcaption className="project-detail">
@@ -19,7 +19,7 @@ class Project extends Component {
       				<p><strong>Tags:</strong> <br></br>{project.tags}</p>
       				<a href={project.link} target="_blank">View more</a>
       				<span className="icon">
-      					<span className="glyphicon glyphicon-new-window"></span>
+      					<span className="glyphicon glyphicon-link"></span>
       				</span>
       			</figcaption>
       		</figure>
