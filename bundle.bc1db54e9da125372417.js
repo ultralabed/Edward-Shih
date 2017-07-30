@@ -2744,8 +2744,8 @@ var Base = function Base(_ref) {
     _react2.default.createElement(_Profile2.default, null),
     _react2.default.createElement(_Experience2.default, null),
     _react2.default.createElement(_Ability2.default, null),
-    _react2.default.createElement(_Hackathon2.default, null),
     _react2.default.createElement(_Project2.default, null),
+    _react2.default.createElement(_Hackathon2.default, null),
     _react2.default.createElement(_Footer2.default, null)
   );
 };
@@ -3141,21 +3141,6 @@ var Experience = function (_Component) {
           ),
           _react2.default.createElement(
             'section',
-            { id: 'education' },
-            _react2.default.createElement(
-              'div',
-              { className: 'experience-education-head' },
-              _react2.default.createElement(
-                'h3',
-                null,
-                'Education'
-              )
-            ),
-            this.renderEducationView(this.state.educations)
-          ),
-          _react2.default.createElement('div', { className: 'split-line split-line-light flex-1-1' }),
-          _react2.default.createElement(
-            'section',
             { id: 'careers' },
             _react2.default.createElement(
               'div',
@@ -3167,6 +3152,21 @@ var Experience = function (_Component) {
               )
             ),
             this.renderCareerView(this.state.careers)
+          ),
+          _react2.default.createElement('div', { className: 'split-line split-line-light flex-1-1' }),
+          _react2.default.createElement(
+            'section',
+            { id: 'education' },
+            _react2.default.createElement(
+              'div',
+              { className: 'experience-education-head' },
+              _react2.default.createElement(
+                'h3',
+                null,
+                'Education'
+              )
+            ),
+            this.renderEducationView(this.state.educations)
           )
         )
       );
@@ -3233,9 +3233,10 @@ var Footer = function (_Component) {
             _react2.default.createElement(
               "div",
               { className: "flex footer-link" },
+              _react2.default.createElement("div", { className: "col col-1-6" }),
               _react2.default.createElement(
                 "div",
-                { className: "col-1-2" },
+                { className: "col col-1-3" },
                 _react2.default.createElement(
                   "ul",
                   { className: "no-bullets" },
@@ -3269,9 +3270,10 @@ var Footer = function (_Component) {
                   )
                 )
               ),
+              _react2.default.createElement("div", { className: "col col-1-6" }),
               _react2.default.createElement(
                 "div",
-                { className: "col-1-2" },
+                { className: "col col-1-3" },
                 _react2.default.createElement(
                   "ul",
                   { className: "no-bullets" },
@@ -3365,7 +3367,7 @@ var Hackathon = function (_Component) {
       var list = hackathons.map(function (hackathon) {
         return _react2.default.createElement(
           'div',
-          { className: 'col-1-2 project-content-box' },
+          { className: 'col col-1-2 project-content-box' },
           _react2.default.createElement(
             'figure',
             { className: 'effect' },
@@ -3403,7 +3405,7 @@ var Hackathon = function (_Component) {
               _react2.default.createElement(
                 'span',
                 { className: 'icon' },
-                _react2.default.createElement('span', { className: 'glyphicon glyphicon-new-window' })
+                _react2.default.createElement('span', { className: 'glyphicon glyphicon-link' })
               )
             )
           )
@@ -3704,7 +3706,7 @@ var Project = function (_Component) {
       var list = projects.map(function (project) {
         return _react2.default.createElement(
           'div',
-          { className: 'col-1-2 project-content-box' },
+          { className: 'col col-1-2 project-content-box' },
           _react2.default.createElement(
             'figure',
             { className: 'effect' },
@@ -3742,7 +3744,7 @@ var Project = function (_Component) {
               _react2.default.createElement(
                 'span',
                 { className: 'icon' },
-                _react2.default.createElement('span', { className: 'glyphicon glyphicon-new-window' })
+                _react2.default.createElement('span', { className: 'glyphicon glyphicon-link' })
               )
             )
           )
@@ -6962,7 +6964,7 @@ module.exports = function (str) {
 /* 290 */
 /***/ function(module, exports) {
 
-module.exports = {"frontend":[{"skill":"JavaScript","stars":5},{"skill":"AngularJS","stars":5},{"skill":"CSS","stars":5},{"skill":"HTML","stars":5},{"skill":"JSON","stars":5},{"skill":"ReactJS","stars":4},{"skill":"SASS","stars":4},{"skill":"Materialize","stars":4},{"skill":"Bootstrap","stars":4},{"skill":"jQuery","stars":4},{"skill":"JSONP","stars":3}],"backend":[{"skill":"PHP","stars":5},{"skill":"NodeJS","stars":4},{"skill":"Laravel Framework","stars":4},{"skill":"MySQL","stars":3},{"skill":"MongoDB","stars":3},{"skill":"ThinkPHP","stars":3},{"skill":"CodeIgnitor","stars":3}],"others":[{"skill":"Git","stars":5},{"skill":"Mocha","stars":4},{"skill":"Chai","stars":4},{"skill":"ReactNatvie","stars":4},{"skill":"Gulp","stars":4},{"skill":"Webpack","stars":4},{"skill":"Python","stars":3},{"skill":"Firebase","stars":3},{"skill":"Docker","stars":3},{"skill":"Wordpress","stars":3}],"languages":[{"skill":"Chinese (Native Speaker)","stars":5},{"skill":"English (Fluent)","stars":5},{"skill":"Japanese (Can survive)","stars":2},{"skill":"čeština (Can cheer)","stars":1}]}
+module.exports = {"frontend":[{"skill":"JavaScript","stars":5},{"skill":"AngularJS","stars":5},{"skill":"CSS","stars":5},{"skill":"HTML","stars":5},{"skill":"JSON","stars":5},{"skill":"ReactJS","stars":4},{"skill":"ReactNatvie","stars":4},{"skill":"SASS","stars":4},{"skill":"Materialize","stars":4},{"skill":"Bootstrap","stars":4},{"skill":"jQuery","stars":4},{"skill":"JSONP","stars":3}],"backend":[{"skill":"PHP","stars":5},{"skill":"NodeJS","stars":4},{"skill":"Laravel Framework","stars":4},{"skill":"Python","stars":3},{"skill":"MySQL","stars":3},{"skill":"MongoDB","stars":3},{"skill":"ThinkPHP","stars":3},{"skill":"Wordpress","stars":3},{"skill":"CodeIgnitor","stars":3}],"others":[{"skill":"Git","stars":5},{"skill":"Mocha","stars":4},{"skill":"Chai","stars":4},{"skill":"Gulp","stars":4},{"skill":"Webpack","stars":4},{"skill":"Firebase","stars":3},{"skill":"Docker","stars":3}],"languages":[{"skill":"Chinese (Native Speaker)","stars":5},{"skill":"English (Fluent)","stars":5},{"skill":"Japanese (Can survive)","stars":2},{"skill":"čeština (Can cheer)","stars":2}]}
 
 /***/ },
 /* 291 */
