@@ -55,18 +55,18 @@ class Experience extends Component {
             <h2>Experience</h2>
             <div className="split-line split-line-light flex-1-1"></div>
           </div>
-          <section id="education">
-            <div className="experience-education-head">
-              <h3>Education</h3>
-            </div>
-            {this.renderEducationView(this.state.educations)}
-          </section>
-          <div className="split-line split-line-light flex-1-1"></div>
           <section id="careers">
             <div className="experience-careers-head">
               <h3>Careers</h3>
             </div>
             {this.renderCareerView(this.state.careers)}
+          </section>
+          <div className="split-line split-line-light flex-1-1"></div>
+          <section id="education">
+            <div className="experience-education-head">
+              <h3>Education</h3>
+            </div>
+            {this.renderEducationView(this.state.educations)}
           </section>
         </div>
       </section>
