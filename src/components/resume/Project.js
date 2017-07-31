@@ -16,7 +16,7 @@ class Project extends Component {
       			<figcaption className="project-detail">
       				<h3>{project.title}</h3>
       				<p>{project.description}</p>
-      				<p><strong>Tags:</strong> <br></br>{project.tags}</p>
+      				<p><br></br>＊ {project.tags}</p>
       				<a href={project.link} target="_blank">View more</a>
       				<span className="icon">
       					<span className="glyphicon glyphicon-link"></span>

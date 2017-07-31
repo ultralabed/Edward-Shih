@@ -16,7 +16,7 @@ class Hackathon extends Component {
       			<figcaption className="project-detail">
       				<h3>{hackathon.title}</h3>
       				<p>{hackathon.description}</p>
-      				<p><strong>Tags:</strong> <br></br>{hackathon.tags}</p>
+      				<p><br></br>＊ {hackathon.tags}</p>
       				<a href={hackathon.link} target="_blank">View more</a>
       				<span className="icon">
       					<span className="glyphicon glyphicon-link"></span>

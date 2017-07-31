@@ -39,7 +39,7 @@ class Footer extends Component {
                   <li>
                     <a href="tel:+886912834980" target="_blank">
                       <span className="icon icon-phone"></span>
-                      <span>+886 912834980</span>
+                      <span>+886 912 834 980</span>
                     </a>
                   </li>
             		</ul>
