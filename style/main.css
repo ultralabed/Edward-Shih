@@ -54,9 +54,10 @@ table {
 */
 
 body {
-  background: #f3efe0;
-  color: #434242;
+  background: #f0eff5;
+  color: #636363;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font: 300 16px/22px "Myriad Set Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;*/
 }
 
 /*
@@ -122,7 +123,7 @@ h1, h4 {
 }
 h2,h3 {
   font-weight: 300;
-  color: #22A39F;
+  color: #43ABC9;
 }
 h2 {
   font-size: 54px;
@@ -348,7 +349,7 @@ p a {
 }
 
 .ability-score .filled {
-  color: #22A39F;
+  color: #43ABC9;
 }
 
 .list-left {
@@ -385,7 +386,7 @@ p a {
 */
 
 #project {
-  background-color: #f3efe0;
+  background-color: #f0eff5;
 }
 
 .project-content {
@@ -403,7 +404,8 @@ p a {
 }
 
 .project-image {
-  width: 100%;
+  width: 80%;
+  min-height: 250px;
 }
 
 .project-image:hover {
@@ -419,7 +421,7 @@ figure {
   text-align: left;
 }
 figure .effect {
-  background: #22A39F;
+  background: #43ABC9;
   color: #FFF;
 }
 figure figcaption {
@@ -582,8 +584,8 @@ figure figcaption {
 /*---------------*/
 
 figure.effect {
-  background: #ddd;
-	color: #333;
+  background: #434242;
+	color: #fff;
 }
 
 figure.effect img {
@@ -594,7 +596,7 @@ figure.effect img {
 }
 
 figure.effect:hover img {
-	opacity: 0.2;
+	opacity: 0.1;
 	transform: translate3d(0,0,0);
 }
 
@@ -603,11 +605,12 @@ figure.effect figcaption {
 }
 
 figure.effect h3 {
-  margin-top: 10px;
+  margin-top: 15px;
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 20px;
 	opacity: 0;
+  color: #fff;
 	transition: opacity 0.35s, transform 0.35s;
 }
 

@@ -3301,7 +3301,7 @@ var Footer = function (_Component) {
                       _react2.default.createElement(
                         "span",
                         null,
-                        "+886 912834980"
+                        "+886 912 834 980"
                       )
                     )
                   )
@@ -3388,13 +3388,8 @@ var Hackathon = function (_Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                _react2.default.createElement(
-                  'strong',
-                  null,
-                  'Tags:'
-                ),
-                ' ',
                 _react2.default.createElement('br', null),
+                '\uFF0A ',
                 hackathon.tags
               ),
               _react2.default.createElement(
@@ -3727,13 +3722,8 @@ var Project = function (_Component) {
               _react2.default.createElement(
                 'p',
                 null,
-                _react2.default.createElement(
-                  'strong',
-                  null,
-                  'Tags:'
-                ),
-                ' ',
                 _react2.default.createElement('br', null),
+                '\uFF0A ',
                 project.tags
               ),
               _react2.default.createElement(
@@ -6964,7 +6954,7 @@ module.exports = function (str) {
 /* 290 */
 /***/ function(module, exports) {
 
-module.exports = {"frontend":[{"skill":"JavaScript","stars":5},{"skill":"AngularJS","stars":5},{"skill":"CSS","stars":5},{"skill":"HTML","stars":5},{"skill":"JSON","stars":5},{"skill":"ReactJS","stars":4},{"skill":"ReactNatvie","stars":4},{"skill":"SASS","stars":4},{"skill":"Materialize","stars":4},{"skill":"Bootstrap","stars":4},{"skill":"jQuery","stars":4},{"skill":"JSONP","stars":3}],"backend":[{"skill":"PHP","stars":5},{"skill":"NodeJS","stars":4},{"skill":"Laravel Framework","stars":4},{"skill":"Python","stars":3},{"skill":"MySQL","stars":3},{"skill":"MongoDB","stars":3},{"skill":"ThinkPHP","stars":3},{"skill":"Wordpress","stars":3},{"skill":"CodeIgnitor","stars":3}],"others":[{"skill":"Git","stars":5},{"skill":"Mocha","stars":4},{"skill":"Chai","stars":4},{"skill":"Gulp","stars":4},{"skill":"Webpack","stars":4},{"skill":"Firebase","stars":3},{"skill":"Docker","stars":3}],"languages":[{"skill":"Chinese (Native Speaker)","stars":5},{"skill":"English (Fluent)","stars":5},{"skill":"Japanese (Can survive)","stars":2},{"skill":"čeština (Can cheer)","stars":2}]}
+module.exports = {"frontend":[{"skill":"JavaScript","stars":5},{"skill":"AngularJS","stars":5},{"skill":"CSS","stars":5},{"skill":"HTML","stars":5},{"skill":"JSON","stars":5},{"skill":"ReactJS","stars":4},{"skill":"ReactNatvie","stars":4},{"skill":"SASS","stars":4},{"skill":"Materialize","stars":4},{"skill":"Bootstrap","stars":4},{"skill":"jQuery","stars":4},{"skill":"JSONP","stars":3}],"backend":[{"skill":"PHP","stars":5},{"skill":"NodeJS","stars":4},{"skill":"Laravel Framework","stars":4},{"skill":"Python","stars":3},{"skill":"MySQL","stars":3},{"skill":"MongoDB","stars":3},{"skill":"ThinkPHP","stars":3},{"skill":"Wordpress","stars":3},{"skill":"CodeIgnitor","stars":3}],"others":[{"skill":"Git","stars":5},{"skill":"Mocha","stars":4},{"skill":"Chai","stars":4},{"skill":"Gulp","stars":4},{"skill":"Webpack","stars":4},{"skill":"Firebase","stars":3},{"skill":"Docker","stars":3}],"languages":[{"skill":"Chinese (Native Speaker)","stars":5},{"skill":"English (Fluent)","stars":5},{"skill":"Japanese (Can survive)","stars":2},{"skill":"čeština (Can survive)","stars":2}]}
 
 /***/ },
 /* 291 */
